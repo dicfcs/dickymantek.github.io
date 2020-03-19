@@ -3,7 +3,23 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://www.dickyf.ml/" />
+    <script>
+    var s;
+    var st;
+    var i = 15;
+    var span = document.getElementsByTagName("span");
+    function tick() {
+        i--;
+        span[0].innerHTML = i;
+    }
+    function timer() {
+        s = setInterval(death, 3000);
+        st = setInterval(tick, 1000);
+    }
+    function death() {
+        window.location.replace("https://www.dickyf.ml");
+    }
+    </script>
 <!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>dicky’s very amazing site | page by dicky</title>
 <meta name="generator" content="Jekyll v3.8.5" />
@@ -31,13 +47,7 @@
     </section>
 
     <section class="main-content">
-      <h1 id="dickys-very-amazing-site">dicky’s very amazing site</h1>
-
-<p>for hosting apis and learning java or sth like that
-no bulli thx</p>
-
-<h3 id="conbine-science-ppt"><a href="Addition%20Polymers%20(2).pptx">conbine science ppt</a></h3>
-
+      <h1 id="dickys-very-amazing-site">wait <span>3</span> seconds</h1>
     </section>
 
     
